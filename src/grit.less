@@ -7,8 +7,8 @@
  */
 
 /* Custom properties & Variables */
-@grt-mixin-start: 1;
-@grt-mixin-end: 32;
+@grt-mixin-start: 1; /* Min cols in grit */
+@grt-mixin-end: 32; /* Max cols in grit */
 @width-sm: 320px;
 @width-md: 768px; /* At this breakpoint, md-xxx classes will be used */
 @width-lg: 1200px;
@@ -22,7 +22,6 @@
     --grt-media-large: @width-xl;
 
     /* Layout */
-    /*--grt-cols: var(--grt-columns-mobile); */
     --grt-wrapper-max-width-sm: @width-sm;
     --grt-wrapper-max-width-md: @width-md;
     --grt-wrapper-max-width-lg: @width-lg;
@@ -43,11 +42,13 @@
     grid-column: 1 / span var(--grt-cols);
     align-items: start;
 }
-.grit-cols-mixin(@cols:0) {
+.grit-cols-mixin(@cols: 0) {
     --grt-cols: @cols;
 }
 .grit {
     --grt-cols: var(--grt-cols-mobile);
+    --grt-padd-cols-l: var(--grt-padding-cols-mobile);
+    --grt-padd-cols-r: var(--grt-padding-cols-desktop);
     .grit-mixin();
 }
 
@@ -68,6 +69,69 @@
         .grit-mixin();
     }
     .md-grit-mixin-loop((@a + 1));
+}
+
+/* Grit padding mixin */
+.grt-padding-mixin(@l, @r) {
+    --grt-padd-cols-l: @l;
+    --grt-padd-cols-r: @r;
+}
+
+/* Generated .grt-p-x classes */
+.grt-padding-mixin-loop(@a) when (@a <= (@grt-mixin-end / 2 - 1)) {
+    .grt-p-@{a} {
+        .grt-padding-mixin(@a, @a);
+    }
+    .grt-padding-mixin-loop((@a + 1));
+}
+.grt-padding-mixin-loop(0);
+
+/* Generated .md-grt-p-x classes */
+.md-grt-padding-mixin-loop(@a) when (@a <= (@grt-mixin-end / 2 - 1)) {
+    .md-grt-p-@{a} {
+        .grt-padding-mixin(@a, @a);
+    }
+    .md-grt-padding-mixin-loop((@a + 1));
+}
+
+/* Generates .grt-p-x-x classes */
+.grt-padding-lr-mixin-loop(@start:1, @end:1) {
+    @a: @start;
+    @b: @start;
+    .aLoop(@a) when (@a <= @end) {
+        .bLoop(@b) when (@b <= (@end - @a)) {
+            .grt-p-@{a}-@{b} {
+                .grt-padding-mixin(@a, @b);
+            }
+            .bLoop((@b + 1));
+        }
+        .bLoop(0);
+        .aLoop((@a + 1));
+    }
+    .aLoop(@a);
+}
+.grt-padding-lr-mixin-loop(0, (@grt-mixin-end - 1));
+
+/* Generates .md-grt-p-x-x classes */
+.md-grt-padding-lr-mixin-loop(@start:1, @end:1) {
+    @a: @start;
+    @b: @start;
+    .aLoop(@a) when (@a <= @end) {
+        .bLoop(@b) when (@b <= (@end - @a)) {
+            .md-grt-p-@{a}-@{b} {
+                .grt-padding-mixin(@a, @b);
+            }
+            .bLoop((@b + 1));
+        }
+        .bLoop(0);
+        .aLoop((@a + 1));
+    }
+    .aLoop(@a);
+}
+
+/* .overlay ability inside .grit elements */
+.grit .overlay {
+    grid-row: 1;
 }
 
 /* Opinionated content wrapper with default "padding" columns right & left */
@@ -134,6 +198,16 @@
     }
 }
 
+/* .grt-full spans whole width of grit ignoring content padding cols */
+.grt-full {
+    grid-column: 1 / calc(var(--grt-cols) + 1);
+}
+/* .grt-fill spans whole width between padding cols - & r */
+.grt-fill {
+    grid-column: calc(var(--grt-padd-cols-l) + 1) /
+        calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+}
+
 /* Generates grt-a-b classes */
 .pos-mixin-loop(@start:1, @end:1) {
     @a: @start;
@@ -177,6 +251,12 @@
 
     /* .md-grit-x */
     .md-grit-mixin-loop(2);
+
+    /* .md-grt-x */
+    .md-grt-padding-mixin-loop(0);
+
+    /* .md-grt-x-x */
+    .md-grt-padding-lr-mixin-loop(0, @grt-mixin-end);
 
     /* .grit > .content */
     .grit > .content {

@@ -62,12 +62,16 @@
   - [Host yourself](#host-yourself)
 - [Contributing](#contributing)
 - [Contact](#contact)
-- [.grit & grit-x, md-grid-x](#grit--grit-x-md-grid-x)
+- [.grit & grit-x, md-grit-x](#grit--grit-x-md-grit-x)
+- [.grt-p-(0-max)](#grt-p-0-max)
+- [.grt-p-x-x](#grt-p-x-x)
 - [.grit .content](#grit-content)
   - [either css vars & responsive or set](#either-css-vars--responsive-or-set)
-- [.grit-wrapper & xl md sm](#grit-wrapper--xl-md-sm)
-- [.grit.overlap](#gritoverlap)
+- [.grit-wrapper & -xl -md -sm](#grit-wrapper---xl--md--sm)
+- [.grit.overlay](#gritoverlay)
 - [.grt-x-x & md-grt-x-x](#grt-x-x--md-grt-x-x)
+- [.grt-full](#grt-full)
+- [.grt-fill](#grt-fill)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -132,16 +136,32 @@ Project Icon: [https://github.com/MaximilianHeidenreich/grit/blob/master/assets/
 
 A heavily opinionated grid framework
 
-## .grit & grit-x, md-grid-x
+## .grit & grit-x, md-grit-x
 
 Default grit (only mobile & desktop)
+
+## .grt-p-(0-max)
+
+Padding
+
+## .grt-p-x-x
+
+Padding l / r
 
 ## .grit .content
 
 ### either css vars & responsive or set
 
-## .grit-wrapper & xl md sm
+## .grit-wrapper & -xl -md -sm
 
-## .grit.overlap
+## .grit.overlay
 
 ## .grt-x-x & md-grt-x-x
+
+Ignores padding
+
+## .grt-full
+
+## .grt-fill
+
+Uses padding

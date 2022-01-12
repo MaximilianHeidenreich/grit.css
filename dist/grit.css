@@ -6,6 +6,8 @@
  * Source: XXX
  */
 /* Custom properties & Variables */
+/* Min cols in grit */
+/* Max cols in grit */
 /* At this breakpoint, md-xxx classes will be used */
 :root {
   /* Media Queries */
@@ -14,7 +16,6 @@
   --grt-media-desktop: 1200px;
   --grt-media-large: 1680px;
   /* Layout */
-  /*--grt-cols: var(--grt-columns-mobile); */
   --grt-wrapper-max-width-sm: 320px;
   --grt-wrapper-max-width-md: 768px;
   --grt-wrapper-max-width-lg: 1200px;
@@ -27,6 +28,8 @@
 /* .grit mixins */
 .grit {
   --grt-cols: var(--grt-cols-mobile);
+  --grt-padd-cols-l: var(--grt-padding-cols-mobile);
+  --grt-padd-cols-r: var(--grt-padding-cols-desktop);
   box-align: start;
   -ms-flex-align: start;
   display: grid;
@@ -147,6 +150,2191 @@
           align-items: start;
 }
 /* Generates .md-grit-x classes */
+/* Grit padding mixin */
+/* Generated .grt-p-x classes */
+.grt-p-0 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-1 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-2 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-3 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-4 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-5 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-6 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-7 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-8 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-9 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-10 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-11 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-12 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-13 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-14 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-15 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 15;
+}
+/* Generated .md-grt-p-x classes */
+/* Generates .grt-p-x-x classes */
+.grt-p-0-0 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-0-1 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-0-2 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-0-3 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-0-4 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-0-5 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-0-6 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-0-7 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-0-8 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-0-9 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-0-10 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-0-11 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-0-12 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-0-13 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-0-14 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-0-15 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-0-16 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-0-17 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-0-18 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-0-19 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-0-20 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-0-21 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-0-22 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-0-23 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-0-24 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-0-25 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-0-26 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-0-27 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 27;
+}
+.grt-p-0-28 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 28;
+}
+.grt-p-0-29 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 29;
+}
+.grt-p-0-30 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 30;
+}
+.grt-p-0-31 {
+  --grt-padd-cols-l: 0;
+  --grt-padd-cols-r: 31;
+}
+.grt-p-1-0 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-1-1 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-1-2 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-1-3 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-1-4 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-1-5 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-1-6 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-1-7 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-1-8 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-1-9 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-1-10 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-1-11 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-1-12 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-1-13 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-1-14 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-1-15 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-1-16 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-1-17 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-1-18 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-1-19 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-1-20 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-1-21 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-1-22 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-1-23 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-1-24 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-1-25 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-1-26 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-1-27 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 27;
+}
+.grt-p-1-28 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 28;
+}
+.grt-p-1-29 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 29;
+}
+.grt-p-1-30 {
+  --grt-padd-cols-l: 1;
+  --grt-padd-cols-r: 30;
+}
+.grt-p-2-0 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-2-1 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-2-2 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-2-3 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-2-4 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-2-5 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-2-6 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-2-7 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-2-8 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-2-9 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-2-10 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-2-11 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-2-12 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-2-13 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-2-14 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-2-15 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-2-16 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-2-17 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-2-18 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-2-19 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-2-20 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-2-21 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-2-22 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-2-23 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-2-24 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-2-25 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-2-26 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-2-27 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 27;
+}
+.grt-p-2-28 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 28;
+}
+.grt-p-2-29 {
+  --grt-padd-cols-l: 2;
+  --grt-padd-cols-r: 29;
+}
+.grt-p-3-0 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-3-1 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-3-2 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-3-3 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-3-4 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-3-5 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-3-6 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-3-7 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-3-8 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-3-9 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-3-10 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-3-11 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-3-12 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-3-13 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-3-14 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-3-15 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-3-16 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-3-17 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-3-18 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-3-19 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-3-20 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-3-21 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-3-22 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-3-23 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-3-24 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-3-25 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-3-26 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-3-27 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 27;
+}
+.grt-p-3-28 {
+  --grt-padd-cols-l: 3;
+  --grt-padd-cols-r: 28;
+}
+.grt-p-4-0 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-4-1 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-4-2 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-4-3 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-4-4 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-4-5 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-4-6 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-4-7 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-4-8 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-4-9 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-4-10 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-4-11 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-4-12 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-4-13 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-4-14 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-4-15 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-4-16 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-4-17 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-4-18 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-4-19 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-4-20 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-4-21 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-4-22 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-4-23 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-4-24 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-4-25 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-4-26 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-4-27 {
+  --grt-padd-cols-l: 4;
+  --grt-padd-cols-r: 27;
+}
+.grt-p-5-0 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-5-1 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-5-2 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-5-3 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-5-4 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-5-5 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-5-6 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-5-7 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-5-8 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-5-9 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-5-10 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-5-11 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-5-12 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-5-13 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-5-14 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-5-15 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-5-16 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-5-17 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-5-18 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-5-19 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-5-20 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-5-21 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-5-22 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-5-23 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-5-24 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-5-25 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-5-26 {
+  --grt-padd-cols-l: 5;
+  --grt-padd-cols-r: 26;
+}
+.grt-p-6-0 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-6-1 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-6-2 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-6-3 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-6-4 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-6-5 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-6-6 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-6-7 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-6-8 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-6-9 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-6-10 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-6-11 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-6-12 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-6-13 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-6-14 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-6-15 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-6-16 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-6-17 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-6-18 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-6-19 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-6-20 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-6-21 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-6-22 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-6-23 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-6-24 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-6-25 {
+  --grt-padd-cols-l: 6;
+  --grt-padd-cols-r: 25;
+}
+.grt-p-7-0 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-7-1 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-7-2 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-7-3 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-7-4 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-7-5 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-7-6 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-7-7 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-7-8 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-7-9 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-7-10 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-7-11 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-7-12 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-7-13 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-7-14 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-7-15 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-7-16 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-7-17 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-7-18 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-7-19 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-7-20 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-7-21 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-7-22 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-7-23 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-7-24 {
+  --grt-padd-cols-l: 7;
+  --grt-padd-cols-r: 24;
+}
+.grt-p-8-0 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-8-1 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-8-2 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-8-3 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-8-4 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-8-5 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-8-6 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-8-7 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-8-8 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-8-9 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-8-10 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-8-11 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-8-12 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-8-13 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-8-14 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-8-15 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-8-16 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-8-17 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-8-18 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-8-19 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-8-20 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-8-21 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-8-22 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-8-23 {
+  --grt-padd-cols-l: 8;
+  --grt-padd-cols-r: 23;
+}
+.grt-p-9-0 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-9-1 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-9-2 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-9-3 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-9-4 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-9-5 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-9-6 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-9-7 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-9-8 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-9-9 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-9-10 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-9-11 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-9-12 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-9-13 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-9-14 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-9-15 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-9-16 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-9-17 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-9-18 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-9-19 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-9-20 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-9-21 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-9-22 {
+  --grt-padd-cols-l: 9;
+  --grt-padd-cols-r: 22;
+}
+.grt-p-10-0 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-10-1 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-10-2 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-10-3 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-10-4 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-10-5 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-10-6 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-10-7 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-10-8 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-10-9 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-10-10 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-10-11 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-10-12 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-10-13 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-10-14 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-10-15 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-10-16 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-10-17 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-10-18 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-10-19 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-10-20 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-10-21 {
+  --grt-padd-cols-l: 10;
+  --grt-padd-cols-r: 21;
+}
+.grt-p-11-0 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-11-1 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-11-2 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-11-3 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-11-4 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-11-5 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-11-6 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-11-7 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-11-8 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-11-9 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-11-10 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-11-11 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-11-12 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-11-13 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-11-14 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-11-15 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-11-16 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-11-17 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-11-18 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-11-19 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-11-20 {
+  --grt-padd-cols-l: 11;
+  --grt-padd-cols-r: 20;
+}
+.grt-p-12-0 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-12-1 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-12-2 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-12-3 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-12-4 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-12-5 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-12-6 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-12-7 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-12-8 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-12-9 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-12-10 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-12-11 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-12-12 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-12-13 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-12-14 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-12-15 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-12-16 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-12-17 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-12-18 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-12-19 {
+  --grt-padd-cols-l: 12;
+  --grt-padd-cols-r: 19;
+}
+.grt-p-13-0 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-13-1 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-13-2 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-13-3 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-13-4 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-13-5 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-13-6 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-13-7 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-13-8 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-13-9 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-13-10 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-13-11 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-13-12 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-13-13 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-13-14 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-13-15 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-13-16 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-13-17 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-13-18 {
+  --grt-padd-cols-l: 13;
+  --grt-padd-cols-r: 18;
+}
+.grt-p-14-0 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-14-1 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-14-2 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-14-3 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-14-4 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-14-5 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-14-6 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-14-7 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-14-8 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-14-9 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-14-10 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-14-11 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-14-12 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-14-13 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-14-14 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-14-15 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-14-16 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-14-17 {
+  --grt-padd-cols-l: 14;
+  --grt-padd-cols-r: 17;
+}
+.grt-p-15-0 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-15-1 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-15-2 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-15-3 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-15-4 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-15-5 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-15-6 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-15-7 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-15-8 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-15-9 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-15-10 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-15-11 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-15-12 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-15-13 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-15-14 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-15-15 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-15-16 {
+  --grt-padd-cols-l: 15;
+  --grt-padd-cols-r: 16;
+}
+.grt-p-16-0 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-16-1 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-16-2 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-16-3 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-16-4 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-16-5 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-16-6 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-16-7 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-16-8 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-16-9 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-16-10 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-16-11 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-16-12 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-16-13 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-16-14 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-16-15 {
+  --grt-padd-cols-l: 16;
+  --grt-padd-cols-r: 15;
+}
+.grt-p-17-0 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-17-1 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-17-2 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-17-3 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-17-4 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-17-5 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-17-6 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-17-7 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-17-8 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-17-9 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-17-10 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-17-11 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-17-12 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-17-13 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-17-14 {
+  --grt-padd-cols-l: 17;
+  --grt-padd-cols-r: 14;
+}
+.grt-p-18-0 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-18-1 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-18-2 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-18-3 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-18-4 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-18-5 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-18-6 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-18-7 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-18-8 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-18-9 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-18-10 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-18-11 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-18-12 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-18-13 {
+  --grt-padd-cols-l: 18;
+  --grt-padd-cols-r: 13;
+}
+.grt-p-19-0 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-19-1 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-19-2 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-19-3 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-19-4 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-19-5 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-19-6 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-19-7 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-19-8 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-19-9 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-19-10 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-19-11 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-19-12 {
+  --grt-padd-cols-l: 19;
+  --grt-padd-cols-r: 12;
+}
+.grt-p-20-0 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-20-1 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-20-2 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-20-3 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-20-4 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-20-5 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-20-6 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-20-7 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-20-8 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-20-9 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-20-10 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-20-11 {
+  --grt-padd-cols-l: 20;
+  --grt-padd-cols-r: 11;
+}
+.grt-p-21-0 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-21-1 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-21-2 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-21-3 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-21-4 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-21-5 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-21-6 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-21-7 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-21-8 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-21-9 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-21-10 {
+  --grt-padd-cols-l: 21;
+  --grt-padd-cols-r: 10;
+}
+.grt-p-22-0 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-22-1 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-22-2 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-22-3 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-22-4 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-22-5 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-22-6 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-22-7 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-22-8 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-22-9 {
+  --grt-padd-cols-l: 22;
+  --grt-padd-cols-r: 9;
+}
+.grt-p-23-0 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-23-1 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-23-2 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-23-3 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-23-4 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-23-5 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-23-6 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-23-7 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-23-8 {
+  --grt-padd-cols-l: 23;
+  --grt-padd-cols-r: 8;
+}
+.grt-p-24-0 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-24-1 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-24-2 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-24-3 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-24-4 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-24-5 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-24-6 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-24-7 {
+  --grt-padd-cols-l: 24;
+  --grt-padd-cols-r: 7;
+}
+.grt-p-25-0 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-25-1 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-25-2 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-25-3 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-25-4 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-25-5 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-25-6 {
+  --grt-padd-cols-l: 25;
+  --grt-padd-cols-r: 6;
+}
+.grt-p-26-0 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-26-1 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-26-2 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-26-3 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-26-4 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-26-5 {
+  --grt-padd-cols-l: 26;
+  --grt-padd-cols-r: 5;
+}
+.grt-p-27-0 {
+  --grt-padd-cols-l: 27;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-27-1 {
+  --grt-padd-cols-l: 27;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-27-2 {
+  --grt-padd-cols-l: 27;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-27-3 {
+  --grt-padd-cols-l: 27;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-27-4 {
+  --grt-padd-cols-l: 27;
+  --grt-padd-cols-r: 4;
+}
+.grt-p-28-0 {
+  --grt-padd-cols-l: 28;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-28-1 {
+  --grt-padd-cols-l: 28;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-28-2 {
+  --grt-padd-cols-l: 28;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-28-3 {
+  --grt-padd-cols-l: 28;
+  --grt-padd-cols-r: 3;
+}
+.grt-p-29-0 {
+  --grt-padd-cols-l: 29;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-29-1 {
+  --grt-padd-cols-l: 29;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-29-2 {
+  --grt-padd-cols-l: 29;
+  --grt-padd-cols-r: 2;
+}
+.grt-p-30-0 {
+  --grt-padd-cols-l: 30;
+  --grt-padd-cols-r: 0;
+}
+.grt-p-30-1 {
+  --grt-padd-cols-l: 30;
+  --grt-padd-cols-r: 1;
+}
+.grt-p-31-0 {
+  --grt-padd-cols-l: 31;
+  --grt-padd-cols-r: 0;
+}
+/* Generates .md-grt-p-x-x classes */
+/* .overlay ability inside .grit elements */
+.grit .overlay {
+  grid-row: 1;
+}
 /* Opinionated content wrapper with default "padding" columns right & left */
 .grit > .content {
   grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
@@ -226,6 +2414,14 @@
 /* .grt-{start}-{end} Mixin */
 /* Can be used to easily position elements on the grid with a single class */
 /* Vertical positioning should be achieved through multiple grit elements */
+/* .grt-full spans whole width of grit ignoring content padding cols */
+.grt-full {
+  grid-column: 1 / calc(var(--grt-cols) + 1);
+}
+/* .grt-fill spans whole width between padding cols - & r */
+.grt-fill {
+  grid-column: calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+}
 /* Generates grt-a-b classes */
 .grt-1-2 {
   grid-column: 1 / 2;
@@ -2039,6 +4235,2316 @@
     grid-column: 1 / span var(--grt-cols);
     -webkit-box-align: start;
             align-items: start;
+  }
+  /* .md-grt-x */
+  .md-grt-p-0 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-1 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-2 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-3 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-4 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-5 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-6 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-7 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-8 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-9 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-10 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-11 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-12 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-13 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-14 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-15 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 15;
+  }
+  /* .md-grt-x-x */
+  .md-grt-p-0-0 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-0-1 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-0-2 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-0-3 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-0-4 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-0-5 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-0-6 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-0-7 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-0-8 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-0-9 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-0-10 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-0-11 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-0-12 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-0-13 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-0-14 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-0-15 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-0-16 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-0-17 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-0-18 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-0-19 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-0-20 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-0-21 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-0-22 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-0-23 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-0-24 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-0-25 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-0-26 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-0-27 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-0-28 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 28;
+  }
+  .md-grt-p-0-29 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 29;
+  }
+  .md-grt-p-0-30 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 30;
+  }
+  .md-grt-p-0-31 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 31;
+  }
+  .md-grt-p-0-32 {
+    --grt-padd-cols-l: 0;
+    --grt-padd-cols-r: 32;
+  }
+  .md-grt-p-1-0 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-1-1 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-1-2 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-1-3 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-1-4 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-1-5 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-1-6 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-1-7 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-1-8 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-1-9 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-1-10 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-1-11 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-1-12 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-1-13 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-1-14 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-1-15 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-1-16 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-1-17 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-1-18 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-1-19 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-1-20 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-1-21 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-1-22 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-1-23 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-1-24 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-1-25 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-1-26 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-1-27 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-1-28 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 28;
+  }
+  .md-grt-p-1-29 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 29;
+  }
+  .md-grt-p-1-30 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 30;
+  }
+  .md-grt-p-1-31 {
+    --grt-padd-cols-l: 1;
+    --grt-padd-cols-r: 31;
+  }
+  .md-grt-p-2-0 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-2-1 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-2-2 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-2-3 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-2-4 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-2-5 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-2-6 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-2-7 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-2-8 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-2-9 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-2-10 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-2-11 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-2-12 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-2-13 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-2-14 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-2-15 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-2-16 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-2-17 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-2-18 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-2-19 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-2-20 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-2-21 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-2-22 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-2-23 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-2-24 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-2-25 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-2-26 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-2-27 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-2-28 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 28;
+  }
+  .md-grt-p-2-29 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 29;
+  }
+  .md-grt-p-2-30 {
+    --grt-padd-cols-l: 2;
+    --grt-padd-cols-r: 30;
+  }
+  .md-grt-p-3-0 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-3-1 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-3-2 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-3-3 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-3-4 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-3-5 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-3-6 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-3-7 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-3-8 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-3-9 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-3-10 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-3-11 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-3-12 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-3-13 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-3-14 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-3-15 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-3-16 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-3-17 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-3-18 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-3-19 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-3-20 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-3-21 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-3-22 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-3-23 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-3-24 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-3-25 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-3-26 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-3-27 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-3-28 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 28;
+  }
+  .md-grt-p-3-29 {
+    --grt-padd-cols-l: 3;
+    --grt-padd-cols-r: 29;
+  }
+  .md-grt-p-4-0 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-4-1 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-4-2 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-4-3 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-4-4 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-4-5 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-4-6 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-4-7 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-4-8 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-4-9 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-4-10 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-4-11 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-4-12 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-4-13 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-4-14 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-4-15 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-4-16 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-4-17 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-4-18 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-4-19 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-4-20 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-4-21 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-4-22 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-4-23 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-4-24 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-4-25 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-4-26 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-4-27 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-4-28 {
+    --grt-padd-cols-l: 4;
+    --grt-padd-cols-r: 28;
+  }
+  .md-grt-p-5-0 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-5-1 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-5-2 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-5-3 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-5-4 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-5-5 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-5-6 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-5-7 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-5-8 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-5-9 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-5-10 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-5-11 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-5-12 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-5-13 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-5-14 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-5-15 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-5-16 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-5-17 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-5-18 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-5-19 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-5-20 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-5-21 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-5-22 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-5-23 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-5-24 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-5-25 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-5-26 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-5-27 {
+    --grt-padd-cols-l: 5;
+    --grt-padd-cols-r: 27;
+  }
+  .md-grt-p-6-0 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-6-1 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-6-2 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-6-3 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-6-4 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-6-5 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-6-6 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-6-7 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-6-8 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-6-9 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-6-10 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-6-11 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-6-12 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-6-13 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-6-14 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-6-15 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-6-16 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-6-17 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-6-18 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-6-19 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-6-20 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-6-21 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-6-22 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-6-23 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-6-24 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-6-25 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-6-26 {
+    --grt-padd-cols-l: 6;
+    --grt-padd-cols-r: 26;
+  }
+  .md-grt-p-7-0 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-7-1 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-7-2 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-7-3 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-7-4 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-7-5 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-7-6 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-7-7 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-7-8 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-7-9 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-7-10 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-7-11 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-7-12 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-7-13 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-7-14 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-7-15 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-7-16 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-7-17 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-7-18 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-7-19 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-7-20 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-7-21 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-7-22 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-7-23 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-7-24 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-7-25 {
+    --grt-padd-cols-l: 7;
+    --grt-padd-cols-r: 25;
+  }
+  .md-grt-p-8-0 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-8-1 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-8-2 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-8-3 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-8-4 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-8-5 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-8-6 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-8-7 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-8-8 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-8-9 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-8-10 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-8-11 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-8-12 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-8-13 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-8-14 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-8-15 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-8-16 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-8-17 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-8-18 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-8-19 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-8-20 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-8-21 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-8-22 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-8-23 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-8-24 {
+    --grt-padd-cols-l: 8;
+    --grt-padd-cols-r: 24;
+  }
+  .md-grt-p-9-0 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-9-1 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-9-2 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-9-3 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-9-4 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-9-5 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-9-6 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-9-7 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-9-8 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-9-9 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-9-10 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-9-11 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-9-12 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-9-13 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-9-14 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-9-15 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-9-16 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-9-17 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-9-18 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-9-19 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-9-20 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-9-21 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-9-22 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-9-23 {
+    --grt-padd-cols-l: 9;
+    --grt-padd-cols-r: 23;
+  }
+  .md-grt-p-10-0 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-10-1 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-10-2 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-10-3 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-10-4 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-10-5 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-10-6 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-10-7 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-10-8 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-10-9 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-10-10 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-10-11 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-10-12 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-10-13 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-10-14 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-10-15 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-10-16 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-10-17 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-10-18 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-10-19 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-10-20 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-10-21 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-10-22 {
+    --grt-padd-cols-l: 10;
+    --grt-padd-cols-r: 22;
+  }
+  .md-grt-p-11-0 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-11-1 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-11-2 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-11-3 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-11-4 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-11-5 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-11-6 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-11-7 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-11-8 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-11-9 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-11-10 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-11-11 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-11-12 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-11-13 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-11-14 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-11-15 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-11-16 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-11-17 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-11-18 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-11-19 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-11-20 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-11-21 {
+    --grt-padd-cols-l: 11;
+    --grt-padd-cols-r: 21;
+  }
+  .md-grt-p-12-0 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-12-1 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-12-2 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-12-3 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-12-4 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-12-5 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-12-6 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-12-7 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-12-8 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-12-9 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-12-10 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-12-11 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-12-12 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-12-13 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-12-14 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-12-15 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-12-16 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-12-17 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-12-18 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-12-19 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-12-20 {
+    --grt-padd-cols-l: 12;
+    --grt-padd-cols-r: 20;
+  }
+  .md-grt-p-13-0 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-13-1 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-13-2 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-13-3 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-13-4 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-13-5 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-13-6 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-13-7 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-13-8 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-13-9 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-13-10 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-13-11 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-13-12 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-13-13 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-13-14 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-13-15 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-13-16 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-13-17 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-13-18 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-13-19 {
+    --grt-padd-cols-l: 13;
+    --grt-padd-cols-r: 19;
+  }
+  .md-grt-p-14-0 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-14-1 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-14-2 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-14-3 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-14-4 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-14-5 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-14-6 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-14-7 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-14-8 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-14-9 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-14-10 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-14-11 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-14-12 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-14-13 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-14-14 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-14-15 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-14-16 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-14-17 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-14-18 {
+    --grt-padd-cols-l: 14;
+    --grt-padd-cols-r: 18;
+  }
+  .md-grt-p-15-0 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-15-1 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-15-2 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-15-3 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-15-4 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-15-5 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-15-6 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-15-7 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-15-8 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-15-9 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-15-10 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-15-11 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-15-12 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-15-13 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-15-14 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-15-15 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-15-16 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-15-17 {
+    --grt-padd-cols-l: 15;
+    --grt-padd-cols-r: 17;
+  }
+  .md-grt-p-16-0 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-16-1 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-16-2 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-16-3 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-16-4 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-16-5 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-16-6 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-16-7 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-16-8 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-16-9 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-16-10 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-16-11 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-16-12 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-16-13 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-16-14 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-16-15 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-16-16 {
+    --grt-padd-cols-l: 16;
+    --grt-padd-cols-r: 16;
+  }
+  .md-grt-p-17-0 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-17-1 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-17-2 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-17-3 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-17-4 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-17-5 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-17-6 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-17-7 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-17-8 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-17-9 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-17-10 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-17-11 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-17-12 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-17-13 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-17-14 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-17-15 {
+    --grt-padd-cols-l: 17;
+    --grt-padd-cols-r: 15;
+  }
+  .md-grt-p-18-0 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-18-1 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-18-2 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-18-3 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-18-4 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-18-5 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-18-6 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-18-7 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-18-8 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-18-9 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-18-10 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-18-11 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-18-12 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-18-13 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-18-14 {
+    --grt-padd-cols-l: 18;
+    --grt-padd-cols-r: 14;
+  }
+  .md-grt-p-19-0 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-19-1 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-19-2 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-19-3 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-19-4 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-19-5 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-19-6 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-19-7 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-19-8 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-19-9 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-19-10 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-19-11 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-19-12 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-19-13 {
+    --grt-padd-cols-l: 19;
+    --grt-padd-cols-r: 13;
+  }
+  .md-grt-p-20-0 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-20-1 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-20-2 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-20-3 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-20-4 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-20-5 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-20-6 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-20-7 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-20-8 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-20-9 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-20-10 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-20-11 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-20-12 {
+    --grt-padd-cols-l: 20;
+    --grt-padd-cols-r: 12;
+  }
+  .md-grt-p-21-0 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-21-1 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-21-2 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-21-3 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-21-4 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-21-5 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-21-6 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-21-7 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-21-8 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-21-9 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-21-10 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-21-11 {
+    --grt-padd-cols-l: 21;
+    --grt-padd-cols-r: 11;
+  }
+  .md-grt-p-22-0 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-22-1 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-22-2 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-22-3 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-22-4 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-22-5 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-22-6 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-22-7 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-22-8 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-22-9 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-22-10 {
+    --grt-padd-cols-l: 22;
+    --grt-padd-cols-r: 10;
+  }
+  .md-grt-p-23-0 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-23-1 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-23-2 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-23-3 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-23-4 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-23-5 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-23-6 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-23-7 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-23-8 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-23-9 {
+    --grt-padd-cols-l: 23;
+    --grt-padd-cols-r: 9;
+  }
+  .md-grt-p-24-0 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-24-1 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-24-2 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-24-3 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-24-4 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-24-5 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-24-6 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-24-7 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-24-8 {
+    --grt-padd-cols-l: 24;
+    --grt-padd-cols-r: 8;
+  }
+  .md-grt-p-25-0 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-25-1 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-25-2 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-25-3 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-25-4 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-25-5 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-25-6 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-25-7 {
+    --grt-padd-cols-l: 25;
+    --grt-padd-cols-r: 7;
+  }
+  .md-grt-p-26-0 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-26-1 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-26-2 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-26-3 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-26-4 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-26-5 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-26-6 {
+    --grt-padd-cols-l: 26;
+    --grt-padd-cols-r: 6;
+  }
+  .md-grt-p-27-0 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-27-1 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-27-2 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-27-3 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-27-4 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-27-5 {
+    --grt-padd-cols-l: 27;
+    --grt-padd-cols-r: 5;
+  }
+  .md-grt-p-28-0 {
+    --grt-padd-cols-l: 28;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-28-1 {
+    --grt-padd-cols-l: 28;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-28-2 {
+    --grt-padd-cols-l: 28;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-28-3 {
+    --grt-padd-cols-l: 28;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-28-4 {
+    --grt-padd-cols-l: 28;
+    --grt-padd-cols-r: 4;
+  }
+  .md-grt-p-29-0 {
+    --grt-padd-cols-l: 29;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-29-1 {
+    --grt-padd-cols-l: 29;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-29-2 {
+    --grt-padd-cols-l: 29;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-29-3 {
+    --grt-padd-cols-l: 29;
+    --grt-padd-cols-r: 3;
+  }
+  .md-grt-p-30-0 {
+    --grt-padd-cols-l: 30;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-30-1 {
+    --grt-padd-cols-l: 30;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-30-2 {
+    --grt-padd-cols-l: 30;
+    --grt-padd-cols-r: 2;
+  }
+  .md-grt-p-31-0 {
+    --grt-padd-cols-l: 31;
+    --grt-padd-cols-r: 0;
+  }
+  .md-grt-p-31-1 {
+    --grt-padd-cols-l: 31;
+    --grt-padd-cols-r: 1;
+  }
+  .md-grt-p-32-0 {
+    --grt-padd-cols-l: 32;
+    --grt-padd-cols-r: 0;
   }
   /* .grit > .content */
   .grit > .content {
