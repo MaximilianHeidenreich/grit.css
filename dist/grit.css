@@ -29,7 +29,7 @@
 .grit {
   --grt-cols: var(--grt-cols-mobile);
   --grt-padd-cols-l: var(--grt-padding-cols-mobile);
-  --grt-padd-cols-r: var(--grt-padding-cols-desktop);
+  --grt-padd-cols-r: var(--grt-padding-cols-mobile);
   box-align: start;
   -ms-flex-align: start;
   display: grid;
@@ -4013,6 +4013,8 @@
   /* .grit */
   .grit {
     --grt-cols: var(--grt-cols-desktop);
+    --grt-padd-cols-l: var(--grt-padding-cols-desktop);
+    --grt-padd-cols-r: var(--grt-padding-cols-desktop);
   }
   /* .grit-x */
   .grit-2 {
