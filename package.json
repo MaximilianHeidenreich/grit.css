@@ -1,0 +1,28 @@
+{
+    "name": "grit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prepare": "husky install",
+        "test": "npm run check",
+        "check": "npx prettier --check ./src",
+        "format": "npx prettier --write ./src",
+        "build": "npm run format && npx gulp build",
+        "watch": "npm run format && npx gulp watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-less": "^5.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglifycss": "^1.1.0",
+        "husky": "^7.0.0",
+        "less-plugin-autoprefix": "^2.0.0",
+        "postcss": "^8.4.5",
+        "prettier": "2.5.1"
+    }
+}
