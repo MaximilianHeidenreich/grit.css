@@ -74,6 +74,15 @@
     .md-grit-mixin-loop((@a + 1));
 }
 
+/* makes grit inherit parent config */
+.subgrit {
+    .grit-mixin();
+    -grt-cols: inherit;
+    --grt-padd-cols-l: inherit;
+    --grt-padd-cols-r: inherit;
+    grid-column: 1 / calc(var(--grt-cols) + 1);
+}
+
 /* Grit padding mixin */
 .grt-padding-mixin(@l, @r) {
     --grt-padd-cols-l: @l;
@@ -249,6 +258,14 @@
         --grt-cols: var(--grt-cols-desktop);
         --grt-padd-cols-l: var(--grt-padding-cols-desktop);
         --grt-padd-cols-r: var(--grt-padding-cols-desktop);
+    }
+
+    /* makes grit inherit parent config */
+    .subgrit {
+        --grt-cols: inherit;
+        --grt-padd-cols-l: inherit;
+        --grt-padd-cols-r: inherit;
+        grid-column: 1 / calc(var(--grt-cols) + 1);
     }
 
     /* .grit-x */
