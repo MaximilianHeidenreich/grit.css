@@ -16,22 +16,22 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/MaximilianHeidenreich/grit.svg?style=flat-square
-[contributors-url]: https://github.com/MaximilianHeidenreich/grit/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MaximilianHeidenreich/grit?style=flat-square
-[forks-url]: https://github.com/MaximilianHeidenreich/grit/network
-[stars-shield]: https://img.shields.io/github/stars/MaximilianHeidenreich/grit?style=flat-square
-[stars-url]: https://github.com/MaximilianHeidenreich/grit/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MaximilianHeidenreich/grit?style=flat-square
-[issues-url]: https://github.com/MaximilianHeidenreich/grit/issues
-[license-shield]: https://img.shields.io/github/license/MaximilianHeidenreich/grit?style=flat-square
-[license-url]: https://github.com/MaximilianHeidenreich/grit/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/MaximilianHeidenreich/grit.css.svg?style=flat-square
+[contributors-url]: https://github.com/MaximilianHeidenreich/grit.css/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MaximilianHeidenreich/grit.css?style=flat-square
+[forks-url]: https://github.com/MaximilianHeidenreich/grit.css/network
+[stars-shield]: https://img.shields.io/github/stars/MaximilianHeidenreich/grit.css?style=flat-square
+[stars-url]: https://github.com/MaximilianHeidenreich/grit.css/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MaximilianHeidenreich/grit.css?style=flat-square
+[issues-url]: https://github.com/MaximilianHeidenreich/grit.css/issues
+[license-shield]: https://img.shields.io/github/license/MaximilianHeidenreich/grit.css?style=flat-square
+[license-url]: https://github.com/MaximilianHeidenreich/grit.css/blob/master/LICENSE
 
 <!-- PROJECT HEADER -->
 <br />
 <p align="center">
-  <a href="https://github.com/MaximilianHeidenreich/grit">
-    <img src="https://github.com/MaximilianHeidenreich/grit/blob/master/assets/GRIT-logo-large.png?raw=true" alt="Grit logo" width="160">
+  <a href="https://github.com/MaximilianHeidenreich/grit.css">
+    <img src="https://github.com/MaximilianHeidenreich/grit.css/blob/master/assets/GRIT-logo-large.png?raw=true" alt="Grit logo" width="160">
   </a>
 
 <h2 align="center">Grit</h2>
@@ -44,9 +44,9 @@
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/MaximilianHeidenreich/grit/issues">Report Bug</a>
+    <a href="https://github.com/MaximilianHeidenreich/grit.css/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MaximilianHeidenreich/grit/issues">Request Feature</a>
+    <a href="https://github.com/MaximilianHeidenreich/grit.css/issues">Request Feature</a>
   </p>
 </p>
 
@@ -303,8 +303,8 @@ If you do so, please follow the following steps:
 
 Maximilian Heidenreich - github@maximilian-heidenreich.de
 
-Project Link: [https://github.com/MaximilianHeidenreich/JNet](https://github.com/MaximilianHeidenreich/grit)
+Project Link: [https://github.com/MaximilianHeidenreich/grit.css](https://github.com/MaximilianHeidenreich/grit.css)
 
-Project Icon: [https://github.com/MaximilianHeidenreich/grit/blob/master/assets/Icon-1024.png](https://github.com/MaximilianHeidenreich/grit/blob/master/assets/Icon-1024.png)
+Project Icon: [https://github.com/MaximilianHeidenreich/grit.css/blob/master/assets/GRIT-logo-large.png](https://github.com/MaximilianHeidenreich/grit.css/blob/master/assets/GRIT-logo-large.png)
 
 <a href="https://www.buymeacoffee.com/maximili"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=maximili&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
