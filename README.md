@@ -31,7 +31,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/MaximilianHeidenreich/grit">
-    <img src="https://github.com/MaximilianHeidenreich/grit/blob/master/assets/Icon-128.png?raw=true" alt="Project Logo" >
+    <img src="https://github.com/MaximilianHeidenreich/grit/blob/master/assets/GRIT-logo-large.png?raw=true" alt="Grit logo" width="160">
   </a>
 
 <h2 align="center">Grit</h2>
@@ -71,7 +71,9 @@
 - [.grit.overlay](#gritoverlay)
 - [.grt-x-x & md-grt-x-x](#grt-x-x--md-grt-x-x)
 - [.grt-full](#grt-full)
+- [.subgrit](#subgrit)
 - [.grt-fill](#grt-fill)
+- [.subgrit](#subgrit-1)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -162,6 +164,10 @@ Ignores padding
 
 ## .grt-full
 
+## .subgrit
+
 ## .grt-fill
 
 Uses padding
+
+## .subgrit
