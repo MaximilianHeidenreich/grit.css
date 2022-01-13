@@ -34,9 +34,9 @@
     <img src="https://github.com/MaximilianHeidenreich/grit.css/blob/master/assets/GRIT-logo-large.png?raw=true" alt="Grit logo" width="160">
   </a>
 
-<h2 align="center">Grit</h2>
+---
 
-  <p align="center">
+<p align="center">
     A simple and extremely lightweight collection of CSS classes for quickly building responsive web layouts targeting mobile and desktop experiences.
     <br>
     <small><i>Only <strong>140kb</strong> in size.</i></small>
