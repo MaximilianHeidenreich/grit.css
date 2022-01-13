@@ -4059,6 +4059,10 @@
   .only-tablet {
     display: none;
   }
+  .grit,
+  .subgrit .overlay-sm {
+    grid-row: 1;
+  }
 }
 @media (min-width: 768px) {
   /* Helpers */
@@ -4077,6 +4081,10 @@
     --grt-padd-cols-l: inherit;
     --grt-padd-cols-r: inherit;
     grid-column: 1 / calc(var(--grt-cols) + 1);
+  }
+  .grit,
+  .subgrit .overlay-md {
+    grid-row: 1;
   }
   /* .grit-x */
   .grit-2 {

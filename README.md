@@ -89,7 +89,10 @@
     - [.content](#content)
     - [.content-x](#content-x)
     - [.md-content-x](#md-content-x)
-  - [.overlay](#overlay)
+  - [Overlay content](#overlay-content)
+    - [.overlay](#overlay)
+    - [.overlay-sm](#overlay-sm)
+    - [.overlay-md](#overlay-md)
   - [Grit content position](#grit-content-position)
     - [.grt-center](#grt-center)
     - [.md-grt-center](#md-grt-center)
@@ -275,7 +278,11 @@ Makes the element span the full width after subtracting x amount of columns left
 
 Same functionality as <code>.content-x</code>
 
-### .overlay
+### Overlay content
+
+#### .overlay
+
+> ! The <code>.overlay</code> class will be applied at any viewport width. Use ...-sm or ...-md to only overlay inside a specific viewport width !
 
 Sets the <code>grid-row</code> property to 1.
 This is useful when the class is added to multiple
@@ -285,6 +292,18 @@ be displayed stacked.
 
 -> Visit the <a href="/">Docs</a> to learn how to use
 the <code>.overlay</code> class.
+
+#### .overlay-sm
+
+> ! Only applies to viewports <=> tablet breakpoint !
+
+Same functionality as <code>.content-x</code>
+
+#### .overlay-md
+
+> ! Only applies to viewports >= tablet breakpoint !
+
+Same functionality as <code>.content-x</code>
 
 ### Grit content position
 
