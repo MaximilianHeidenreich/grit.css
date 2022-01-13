@@ -150,6 +150,20 @@
           align-items: start;
 }
 /* Generates .md-grit-x classes */
+/* makes grit inherit parent config */
+.subgrit {
+  box-align: start;
+  -ms-flex-align: start;
+  display: grid;
+  grid-template-columns: repeat(var(--grt-cols), 1fr);
+  grid-column: 1 / span var(--grt-cols);
+  -webkit-box-align: start;
+          align-items: start;
+  -grt-cols: inherit;
+  --grt-padd-cols-l: inherit;
+  --grt-padd-cols-r: inherit;
+  grid-column: 1 / calc(var(--grt-cols) + 1);
+}
 /* Grit padding mixin */
 /* Generated .grt-p-x classes */
 .grt-p-0 {
@@ -4016,6 +4030,13 @@
     --grt-padd-cols-l: var(--grt-padding-cols-desktop);
     --grt-padd-cols-r: var(--grt-padding-cols-desktop);
   }
+  /* makes grit inherit parent config */
+  .subgrit {
+    --grt-cols: inherit;
+    --grt-padd-cols-l: inherit;
+    --grt-padd-cols-r: inherit;
+    grid-column: 1 / calc(var(--grt-cols) + 1);
+  }
   /* .grit-x */
   .grit-2 {
     --grt-cols: 2;
@@ -6550,7 +6571,7 @@
   }
   /* .grit > .content */
   .grit > .content {
-    grid-column: calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1));
+    grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
   }
   /* .grit > .content-x */
   .grit > .md-content-0 {
@@ -6600,6 +6621,14 @@
   }
   .grit > .md-content-15 {
     grid-column: calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1));
+  }
+  /* .grt-full spans whole width of grit ignoring content padding cols */
+  .md-grt-fill {
+    grid-column: calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+  }
+  /* .grt-fill spans whole width between padding cols - & r */
+  .md-grt-fill {
+    grid-column: calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
   }
   /* .md-grt-x-x  */
   .md-grt-1-2 {

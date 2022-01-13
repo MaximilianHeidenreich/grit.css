@@ -211,13 +211,19 @@
 }
 
 /* .grt-full spans whole width of grit ignoring content padding cols */
-.grt-full {
+.grt-full-mixin() {
     grid-column: 1 / calc(var(--grt-cols) + 1);
 }
+.grt-full {
+    .grt-full-mixin();
+}
 /* .grt-fill spans whole width between padding cols - & r */
-.grt-fill {
+.grt-fill-mixin() {
     grid-column: calc(var(--grt-padd-cols-l) + 1) /
         calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+}
+.grt-fill {
+    .grt-fill-mixin();
 }
 
 /* Generates grt-a-b classes */
@@ -287,6 +293,15 @@
 
     /* .grit > .content-x */
     .md-content-mixin-loop(0);
+
+    /* .grt-full spans whole width of grit ignoring content padding cols */
+    .md-grt-fill {
+        .grt-fill-mixin();
+    }
+    /* .grt-fill spans whole width between padding cols - & r */
+    .md-grt-fill {
+        .grt-fill-mixin();
+    }
 
     /* .md-grt-x-x  */
     .md-pos-mixin-loop(1, 32);

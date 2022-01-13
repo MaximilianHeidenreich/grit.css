@@ -11,6 +11,7 @@
 .grit-10{--grt-cols:10;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
 .grit-11{--grt-cols:11;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
 .grit-12{--grt-cols:12;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
+.subgrit{box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start;-grt-cols:inherit;--grt-padd-cols-l:inherit;--grt-padd-cols-r:inherit;grid-column:1 / calc(var(--grt-cols) + 1)}
 .grt-p-0{--grt-padd-cols-l:0;--grt-padd-cols-r:0}.grt-p-1{--grt-padd-cols-l:1;--grt-padd-cols-r:1}
 .grt-p-2{--grt-padd-cols-l:2;--grt-padd-cols-r:2}.grt-p-3{--grt-padd-cols-l:3;--grt-padd-cols-r:3}
 .grt-p-4{--grt-padd-cols-l:4;--grt-padd-cols-r:4}.grt-p-5{--grt-padd-cols-l:5;--grt-padd-cols-r:5}
@@ -472,6 +473,7 @@
 .grt-29-33{grid-column:29 / 33}.grt-30-31{grid-column:30 / 31}.grt-30-32{grid-column:30 / 32}
 .grt-30-33{grid-column:30 / 33}.grt-31-32{grid-column:31 / 32}.grt-31-33{grid-column:31 / 33}
 .grt-32-33{grid-column:32 / 33}@media(min-width:768px){.grit{--grt-cols:var(--grt-cols-desktop);--grt-padd-cols-l:var(--grt-padding-cols-desktop);--grt-padd-cols-r:var(--grt-padding-cols-desktop)}
+.subgrit{--grt-cols:inherit;--grt-padd-cols-l:inherit;--grt-padd-cols-r:inherit;grid-column:1 / calc(var(--grt-cols) + 1)}
 .grit-2{--grt-cols:2;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
 .grit-3{--grt-cols:3;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
 .grit-4{--grt-cols:4;box-align:start;-ms-flex-align:start;display:grid;grid-template-columns:repeat(var(--grt-cols),1fr);grid-column:1 / span var(--grt-cols);-webkit-box-align:start;align-items:start}
@@ -782,7 +784,7 @@
 .md-grt-p-29-3{--grt-padd-cols-l:29;--grt-padd-cols-r:3}.md-grt-p-30-0{--grt-padd-cols-l:30;--grt-padd-cols-r:0}
 .md-grt-p-30-1{--grt-padd-cols-l:30;--grt-padd-cols-r:1}.md-grt-p-30-2{--grt-padd-cols-l:30;--grt-padd-cols-r:2}
 .md-grt-p-31-0{--grt-padd-cols-l:31;--grt-padd-cols-r:0}.md-grt-p-31-1{--grt-padd-cols-l:31;--grt-padd-cols-r:1}
-.md-grt-p-32-0{--grt-padd-cols-l:32;--grt-padd-cols-r:0}.grit>.content{grid-column:calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1))}
+.md-grt-p-32-0{--grt-padd-cols-l:32;--grt-padd-cols-r:0}.grit>.content{grid-column:calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1))}
 .grit>.md-content-0{grid-column:calc(0 + 1) / calc(var(--grt-cols) - calc(0 - 1))}.grit>.md-content-1{grid-column:calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1))}
 .grit>.md-content-2{grid-column:calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1))}.grit>.md-content-3{grid-column:calc(3 + 1) / calc(var(--grt-cols) - calc(3 - 1))}
 .grit>.md-content-4{grid-column:calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1))}.grit>.md-content-5{grid-column:calc(5 + 1) / calc(var(--grt-cols) - calc(5 - 1))}
@@ -791,6 +793,7 @@
 .grit>.md-content-10{grid-column:calc(10 + 1) / calc(var(--grt-cols) - calc(10 - 1))}.grit>.md-content-11{grid-column:calc(11 + 1) / calc(var(--grt-cols) - calc(11 - 1))}
 .grit>.md-content-12{grid-column:calc(12 + 1) / calc(var(--grt-cols) - calc(12 - 1))}.grit>.md-content-13{grid-column:calc(13 + 1) / calc(var(--grt-cols) - calc(13 - 1))}
 .grit>.md-content-14{grid-column:calc(14 + 1) / calc(var(--grt-cols) - calc(14 - 1))}.grit>.md-content-15{grid-column:calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1))}
+.md-grt-fill{grid-column:calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)))}.md-grt-fill{grid-column:calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)))}
 .md-grt-1-2{grid-column:1 / 2}.md-grt-1-3{grid-column:1 / 3}.md-grt-1-4{grid-column:1 / 4}
 .md-grt-1-5{grid-column:1 / 5}.md-grt-1-6{grid-column:1 / 6}.md-grt-1-7{grid-column:1 / 7}
 .md-grt-1-8{grid-column:1 / 8}.md-grt-1-9{grid-column:1 / 9}.md-grt-1-10{grid-column:1 / 10}
