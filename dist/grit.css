@@ -2346,84 +2346,84 @@
 }
 /* Generates .md-grt-p-x-x classes */
 /* .overlay ability inside .grit elements */
-.grit,
+.grit .overlay,
 .subgrit .overlay {
   grid-row: 1;
 }
 /* Opinionated content wrapper with default "padding" columns right & left */
-.grit,
-.subgrit > .content {
+.grit .content,
+.subgrit .content {
   grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
   width: 100%;
   height: 100%;
 }
-.grit.overlap,
-.subgrit > .content.overlap {
+.grit .content.overlap,
+.subgrit .content.overlap {
   grid-row: 1;
 }
 /* Generates .content-x classes */
-.grit,
-.subgrit > .content-0 {
+.grit .content-0,
+.subgrit .content-0 {
   grid-column: calc(0 + 1) / calc(var(--grt-cols) - calc(0 - 1));
 }
-.grit,
-.subgrit > .content-1 {
+.grit .content-1,
+.subgrit .content-1 {
   grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
 }
-.grit,
-.subgrit > .content-2 {
+.grit .content-2,
+.subgrit .content-2 {
   grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
 }
-.grit,
-.subgrit > .content-3 {
+.grit .content-3,
+.subgrit .content-3 {
   grid-column: calc(3 + 1) / calc(var(--grt-cols) - calc(3 - 1));
 }
-.grit,
-.subgrit > .content-4 {
+.grit .content-4,
+.subgrit .content-4 {
   grid-column: calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1));
 }
-.grit,
-.subgrit > .content-5 {
+.grit .content-5,
+.subgrit .content-5 {
   grid-column: calc(5 + 1) / calc(var(--grt-cols) - calc(5 - 1));
 }
-.grit,
-.subgrit > .content-6 {
+.grit .content-6,
+.subgrit .content-6 {
   grid-column: calc(6 + 1) / calc(var(--grt-cols) - calc(6 - 1));
 }
-.grit,
-.subgrit > .content-7 {
+.grit .content-7,
+.subgrit .content-7 {
   grid-column: calc(7 + 1) / calc(var(--grt-cols) - calc(7 - 1));
 }
-.grit,
-.subgrit > .content-8 {
+.grit .content-8,
+.subgrit .content-8 {
   grid-column: calc(8 + 1) / calc(var(--grt-cols) - calc(8 - 1));
 }
-.grit,
-.subgrit > .content-9 {
+.grit .content-9,
+.subgrit .content-9 {
   grid-column: calc(9 + 1) / calc(var(--grt-cols) - calc(9 - 1));
 }
-.grit,
-.subgrit > .content-10 {
+.grit .content-10,
+.subgrit .content-10 {
   grid-column: calc(10 + 1) / calc(var(--grt-cols) - calc(10 - 1));
 }
-.grit,
-.subgrit > .content-11 {
+.grit .content-11,
+.subgrit .content-11 {
   grid-column: calc(11 + 1) / calc(var(--grt-cols) - calc(11 - 1));
 }
-.grit,
-.subgrit > .content-12 {
+.grit .content-12,
+.subgrit .content-12 {
   grid-column: calc(12 + 1) / calc(var(--grt-cols) - calc(12 - 1));
 }
-.grit,
-.subgrit > .content-13 {
+.grit .content-13,
+.subgrit .content-13 {
   grid-column: calc(13 + 1) / calc(var(--grt-cols) - calc(13 - 1));
 }
-.grit,
-.subgrit > .content-14 {
+.grit .content-14,
+.subgrit .content-14 {
   grid-column: calc(14 + 1) / calc(var(--grt-cols) - calc(14 - 1));
 }
-.grit,
-.subgrit > .content-15 {
+.grit .content-15,
+.subgrit .content-15 {
   grid-column: calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1));
 }
 /* Generates .md-content-x classes */
@@ -4059,7 +4059,7 @@
   .only-tablet {
     display: none;
   }
-  .grit,
+  .grit .overlay-sm,
   .subgrit .overlay-sm {
     grid-row: 1;
   }
@@ -4082,7 +4082,7 @@
     --grt-padd-cols-r: inherit;
     grid-column: 1 / calc(var(--grt-cols) + 1);
   }
-  .grit,
+  .grit .overlay-md,
   .subgrit .overlay-md {
     grid-row: 1;
   }
@@ -6619,73 +6619,73 @@
     --grt-padd-cols-r: 0;
   }
   /* .grit > .content */
-  .grit,
-  .subgrit > .content {
+  .grit .content,
+  .subgrit .content {
     grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
   }
   /* .grit > .content-x */
-  .grit,
-  .subgrit > .md-content-0 {
+  .grit .md-content-0,
+  .subgrit .md-content-0 {
     grid-column: calc(0 + 1) / calc(var(--grt-cols) - calc(0 - 1));
   }
-  .grit,
-  .subgrit > .md-content-1 {
+  .grit .md-content-1,
+  .subgrit .md-content-1 {
     grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
   }
-  .grit,
-  .subgrit > .md-content-2 {
+  .grit .md-content-2,
+  .subgrit .md-content-2 {
     grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
   }
-  .grit,
-  .subgrit > .md-content-3 {
+  .grit .md-content-3,
+  .subgrit .md-content-3 {
     grid-column: calc(3 + 1) / calc(var(--grt-cols) - calc(3 - 1));
   }
-  .grit,
-  .subgrit > .md-content-4 {
+  .grit .md-content-4,
+  .subgrit .md-content-4 {
     grid-column: calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1));
   }
-  .grit,
-  .subgrit > .md-content-5 {
+  .grit .md-content-5,
+  .subgrit .md-content-5 {
     grid-column: calc(5 + 1) / calc(var(--grt-cols) - calc(5 - 1));
   }
-  .grit,
-  .subgrit > .md-content-6 {
+  .grit .md-content-6,
+  .subgrit .md-content-6 {
     grid-column: calc(6 + 1) / calc(var(--grt-cols) - calc(6 - 1));
   }
-  .grit,
-  .subgrit > .md-content-7 {
+  .grit .md-content-7,
+  .subgrit .md-content-7 {
     grid-column: calc(7 + 1) / calc(var(--grt-cols) - calc(7 - 1));
   }
-  .grit,
-  .subgrit > .md-content-8 {
+  .grit .md-content-8,
+  .subgrit .md-content-8 {
     grid-column: calc(8 + 1) / calc(var(--grt-cols) - calc(8 - 1));
   }
-  .grit,
-  .subgrit > .md-content-9 {
+  .grit .md-content-9,
+  .subgrit .md-content-9 {
     grid-column: calc(9 + 1) / calc(var(--grt-cols) - calc(9 - 1));
   }
-  .grit,
-  .subgrit > .md-content-10 {
+  .grit .md-content-10,
+  .subgrit .md-content-10 {
     grid-column: calc(10 + 1) / calc(var(--grt-cols) - calc(10 - 1));
   }
-  .grit,
-  .subgrit > .md-content-11 {
+  .grit .md-content-11,
+  .subgrit .md-content-11 {
     grid-column: calc(11 + 1) / calc(var(--grt-cols) - calc(11 - 1));
   }
-  .grit,
-  .subgrit > .md-content-12 {
+  .grit .md-content-12,
+  .subgrit .md-content-12 {
     grid-column: calc(12 + 1) / calc(var(--grt-cols) - calc(12 - 1));
   }
-  .grit,
-  .subgrit > .md-content-13 {
+  .grit .md-content-13,
+  .subgrit .md-content-13 {
     grid-column: calc(13 + 1) / calc(var(--grt-cols) - calc(13 - 1));
   }
-  .grit,
-  .subgrit > .md-content-14 {
+  .grit .md-content-14,
+  .subgrit .md-content-14 {
     grid-column: calc(14 + 1) / calc(var(--grt-cols) - calc(14 - 1));
   }
-  .grit,
-  .subgrit > .md-content-15 {
+  .grit .md-content-15,
+  .subgrit .md-content-15 {
     grid-column: calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1));
   }
   /* .md-grt-center */
