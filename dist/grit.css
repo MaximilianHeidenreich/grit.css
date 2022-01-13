@@ -2346,68 +2346,100 @@
 }
 /* Generates .md-grt-p-x-x classes */
 /* .overlay ability inside .grit elements */
-.grit .overlay {
+.grit,
+.subgrit .overlay {
   grid-row: 1;
 }
 /* Opinionated content wrapper with default "padding" columns right & left */
-.grit > .content {
+.grit,
+.subgrit > .content {
   grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
   width: 100%;
   height: 100%;
 }
-.grit > .content.overlap {
+.grit.overlap,
+.subgrit > .content.overlap {
   grid-row: 1;
 }
 /* Generates .content-x classes */
-.grit > .content-0 {
+.grit,
+.subgrit > .content-0 {
   grid-column: calc(0 + 1) / calc(var(--grt-cols) - calc(0 - 1));
 }
-.grit > .content-1 {
+.grit,
+.subgrit > .content-1 {
   grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
 }
-.grit > .content-2 {
+.grit,
+.subgrit > .content-2 {
   grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
 }
-.grit > .content-3 {
+.grit,
+.subgrit > .content-3 {
   grid-column: calc(3 + 1) / calc(var(--grt-cols) - calc(3 - 1));
 }
-.grit > .content-4 {
+.grit,
+.subgrit > .content-4 {
   grid-column: calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1));
 }
-.grit > .content-5 {
+.grit,
+.subgrit > .content-5 {
   grid-column: calc(5 + 1) / calc(var(--grt-cols) - calc(5 - 1));
 }
-.grit > .content-6 {
+.grit,
+.subgrit > .content-6 {
   grid-column: calc(6 + 1) / calc(var(--grt-cols) - calc(6 - 1));
 }
-.grit > .content-7 {
+.grit,
+.subgrit > .content-7 {
   grid-column: calc(7 + 1) / calc(var(--grt-cols) - calc(7 - 1));
 }
-.grit > .content-8 {
+.grit,
+.subgrit > .content-8 {
   grid-column: calc(8 + 1) / calc(var(--grt-cols) - calc(8 - 1));
 }
-.grit > .content-9 {
+.grit,
+.subgrit > .content-9 {
   grid-column: calc(9 + 1) / calc(var(--grt-cols) - calc(9 - 1));
 }
-.grit > .content-10 {
+.grit,
+.subgrit > .content-10 {
   grid-column: calc(10 + 1) / calc(var(--grt-cols) - calc(10 - 1));
 }
-.grit > .content-11 {
+.grit,
+.subgrit > .content-11 {
   grid-column: calc(11 + 1) / calc(var(--grt-cols) - calc(11 - 1));
 }
-.grit > .content-12 {
+.grit,
+.subgrit > .content-12 {
   grid-column: calc(12 + 1) / calc(var(--grt-cols) - calc(12 - 1));
 }
-.grit > .content-13 {
+.grit,
+.subgrit > .content-13 {
   grid-column: calc(13 + 1) / calc(var(--grt-cols) - calc(13 - 1));
 }
-.grit > .content-14 {
+.grit,
+.subgrit > .content-14 {
   grid-column: calc(14 + 1) / calc(var(--grt-cols) - calc(14 - 1));
 }
-.grit > .content-15 {
+.grit,
+.subgrit > .content-15 {
   grid-column: calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1));
 }
 /* Generates .md-content-x classes */
+/* .grt-center */
+.grt-center {
+  grid-column: calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /* Opinionated wrappers with max-width. Use as grit parent */
 .grit-wrapper {
   margin: 0 auto;
@@ -6570,57 +6602,87 @@
     --grt-padd-cols-r: 0;
   }
   /* .grit > .content */
-  .grit > .content {
+  .grit,
+  .subgrit > .content {
     grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
   }
   /* .grit > .content-x */
-  .grit > .md-content-0 {
+  .grit,
+  .subgrit > .md-content-0 {
     grid-column: calc(0 + 1) / calc(var(--grt-cols) - calc(0 - 1));
   }
-  .grit > .md-content-1 {
+  .grit,
+  .subgrit > .md-content-1 {
     grid-column: calc(1 + 1) / calc(var(--grt-cols) - calc(1 - 1));
   }
-  .grit > .md-content-2 {
+  .grit,
+  .subgrit > .md-content-2 {
     grid-column: calc(2 + 1) / calc(var(--grt-cols) - calc(2 - 1));
   }
-  .grit > .md-content-3 {
+  .grit,
+  .subgrit > .md-content-3 {
     grid-column: calc(3 + 1) / calc(var(--grt-cols) - calc(3 - 1));
   }
-  .grit > .md-content-4 {
+  .grit,
+  .subgrit > .md-content-4 {
     grid-column: calc(4 + 1) / calc(var(--grt-cols) - calc(4 - 1));
   }
-  .grit > .md-content-5 {
+  .grit,
+  .subgrit > .md-content-5 {
     grid-column: calc(5 + 1) / calc(var(--grt-cols) - calc(5 - 1));
   }
-  .grit > .md-content-6 {
+  .grit,
+  .subgrit > .md-content-6 {
     grid-column: calc(6 + 1) / calc(var(--grt-cols) - calc(6 - 1));
   }
-  .grit > .md-content-7 {
+  .grit,
+  .subgrit > .md-content-7 {
     grid-column: calc(7 + 1) / calc(var(--grt-cols) - calc(7 - 1));
   }
-  .grit > .md-content-8 {
+  .grit,
+  .subgrit > .md-content-8 {
     grid-column: calc(8 + 1) / calc(var(--grt-cols) - calc(8 - 1));
   }
-  .grit > .md-content-9 {
+  .grit,
+  .subgrit > .md-content-9 {
     grid-column: calc(9 + 1) / calc(var(--grt-cols) - calc(9 - 1));
   }
-  .grit > .md-content-10 {
+  .grit,
+  .subgrit > .md-content-10 {
     grid-column: calc(10 + 1) / calc(var(--grt-cols) - calc(10 - 1));
   }
-  .grit > .md-content-11 {
+  .grit,
+  .subgrit > .md-content-11 {
     grid-column: calc(11 + 1) / calc(var(--grt-cols) - calc(11 - 1));
   }
-  .grit > .md-content-12 {
+  .grit,
+  .subgrit > .md-content-12 {
     grid-column: calc(12 + 1) / calc(var(--grt-cols) - calc(12 - 1));
   }
-  .grit > .md-content-13 {
+  .grit,
+  .subgrit > .md-content-13 {
     grid-column: calc(13 + 1) / calc(var(--grt-cols) - calc(13 - 1));
   }
-  .grit > .md-content-14 {
+  .grit,
+  .subgrit > .md-content-14 {
     grid-column: calc(14 + 1) / calc(var(--grt-cols) - calc(14 - 1));
   }
-  .grit > .md-content-15 {
+  .grit,
+  .subgrit > .md-content-15 {
     grid-column: calc(15 + 1) / calc(var(--grt-cols) - calc(15 - 1));
+  }
+  /* .md-grt-center */
+  .md-grt-center {
+    grid-column: calc(var(--grt-padd-cols-l) + 1) / calc(calc(var(--grt-cols) + 1) - calc(var(--grt-padd-cols-r)));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   /* .grt-full spans whole width of grit ignoring content padding cols */
   .md-grt-fill {

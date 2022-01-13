@@ -88,6 +88,8 @@
     - [.md-content-x](#md-content-x)
   - [.overlay](#overlay)
   - [Grit content position](#grit-content-position)
+    - [.grt-center](#grt-center)
+    - [.md-grt-center](#md-grt-center)
     - [.grt-a-b](#grt-a-b)
     - [.md-grt-a-b](#md-grt-a-b)
   - [Grit content width](#grit-content-width)
@@ -264,9 +266,21 @@ the <code>.overlay</code> class.
 
 ### Grit content position
 
+#### .grt-center
+
 > ! a needs to be smaller than b !
 
+Makes the element span the full width minus left & right padding and applies the <code>display: flex</code> property to center children.
+
+#### .md-grt-center
+
+> ! Only applies to viewports >= tablet breakpoint !
+
+Same functionality as <code>.grt-center</code>
+
 #### .grt-a-b
+
+> ! a needs to be smaller than b !
 
 Makes the element span the given columns defined by a (min: 1, max: grit columns count) and b (min: 1, max: grit columns count)
 

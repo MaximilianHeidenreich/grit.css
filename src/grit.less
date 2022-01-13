@@ -184,6 +184,14 @@
     .md-content-mixin-loop((@a + 1));
 }
 
+/* .grt-center */
+.grt-center {
+    .grt-fill-mixin();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Opinionated wrappers with max-width. Use as grit parent */
 .grit-wrapper  {
     margin: 0 auto;
@@ -300,6 +308,14 @@
 
     /* .grit > .content-x */
     .md-content-mixin-loop(0);
+
+    /* .md-grt-center */
+    .md-grt-center {
+        .grt-fill-mixin();
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* .grt-full spans whole width of grit ignoring content padding cols */
     .md-grt-fill {
