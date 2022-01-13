@@ -272,7 +272,18 @@
 }
 
 /* Media Queries */
+@media (max-width: @width-md) {
+    .only-tablet {
+        display: none;
+    }
+}
+
 @media (min-width: @width-md) {
+    /* Helpers */
+    .only-mobile {
+        display: none;
+    }
+
     /* .grit */
     .grit {
         --grt-cols: var(--grt-cols-desktop);

@@ -67,6 +67,9 @@
     - [Subgrit](#subgrit)
   - [What? Why? How?](#what-why-how)
 - [Classes Docs](#classes-docs)
+  - [Helpers](#helpers)
+    - [.only-mobile](#only-mobile)
+    - [.only-tablet](#only-tablet)
   - [Grit root class](#grit-root-class)
     - [.grit](#grit-1)
     - [.grit-x](#grit-x)
@@ -128,8 +131,16 @@ This grid "framework" (it's really just a few generated classes) can be used to 
 
 ### Load fom CDN
 
-```xml
-todo
+```html
+<head>
+    ...
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/grit.css/dist/grit.css"
+        type="text/css"
+    />
+    ...
+</head>
 ```
 
 ### Host yourself
@@ -173,6 +184,16 @@ It is also possible to position elements which are nested multiple levels deep. 
 
 > Inside the following documentation, mobile viewport referrs
 > to a width < 768px and tablet to > 768px!
+
+### Helpers
+
+#### .only-mobile
+
+Hides the element on viewports largen than tablet breakpoint.
+
+#### .only-tablet
+
+Hides the element on viewports smaller than tablet breakpoint.
 
 ### Grit root class
 

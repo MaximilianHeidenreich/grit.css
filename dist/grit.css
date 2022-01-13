@@ -4055,7 +4055,16 @@
 }
 /* Generates md-grt-a-b classes */
 /* Media Queries */
+@media (max-width: 768px) {
+  .only-tablet {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
+  /* Helpers */
+  .only-mobile {
+    display: none;
+  }
   /* .grit */
   .grit {
     --grt-cols: var(--grt-cols-desktop);
