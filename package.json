@@ -1,6 +1,6 @@
 {
     "name": "gritcss",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A simple and extremely lightweight collection of CSS classes for quickly building robust, responsive web layouts targeting mobile and desktop experiences.",
     "keywords": [
         "css grid",
