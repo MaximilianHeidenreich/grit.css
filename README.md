@@ -98,6 +98,7 @@
     - [.grt-full](#grt-full)
     - [.md-grt-full](#md-grt-full)
 - [Contributing](#contributing)
+- [Todo](#todo)
 - [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
@@ -325,6 +326,14 @@ If you do so, please follow the following steps:
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+<!-- TODO -->
+
+## Todo
+
+-   [ ] Add cool layout images
+-   [ ] Add layout example
+-   [ ] Finish demo page
 
 <!-- CONTACT -->
 
