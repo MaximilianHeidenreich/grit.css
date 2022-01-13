@@ -1,7 +1,22 @@
 {
-    "name": "grit",
+    "name": "gritcss",
     "version": "1.0.0",
-    "description": "",
+    "description": "A simple and extremely lightweight collection of CSS classes for quickly building robust, responsive web layouts targeting mobile and desktop experiences.",
+    "keywords": [
+        "css grid",
+        "css framework",
+        "grit",
+        "gritcss",
+        "grit.css",
+        "layout"
+    ],
+    "author": "Maximilian Vincent Heidenreich",
+    "license": "MIT",
+    "homepage": "https://github.com/owner/project#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MaximilianHeidenreich/grit.css.git"
+    },
     "main": "index.js",
     "scripts": {
         "prepare": "husky install",
@@ -11,8 +26,6 @@
         "build": "npm run format && npx gulp build",
         "watch": "npm run format && npx gulp watch"
     },
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-clean": "^0.4.0",
