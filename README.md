@@ -82,7 +82,10 @@
     - [.grit-wrapper-md](#grit-wrapper-md)
     - [.grit-wrapper](#grit-wrapper-1)
     - [.grit-wrapper-xl](#grit-wrapper-xl)
-  - [.content](#content)
+  - [Grit content](#grit-content)
+    - [.content](#content)
+    - [.content-x](#content-x)
+    - [.md-content-x](#md-content-x)
   - [.overlay](#overlay)
   - [Grit content position](#grit-content-position)
     - [.grt-a-b](#grt-a-b)
@@ -232,9 +235,21 @@ Applies a max-width of 1200px to the element.
 
 Applies a max-width of 1680px to the element.
 
-### .content
+### Grit content
 
-! TODO: Deprecate
+#### .content
+
+!TODO: Deprecate
+
+#### .content-x
+
+Makes the element span the full width after subtracting x amount of columns left and right.
+
+#### .md-content-x
+
+> ! Only applies to viewports >= tablet breakpoint !
+
+Same functionality as <code>.content-x</code>
 
 ### .overlay
 
