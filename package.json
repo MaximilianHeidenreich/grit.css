@@ -25,7 +25,7 @@
         "format": "npx prettier --write ./src",
         "build": "npm run format && npx gulp build",
         "watch": "npm run format && npx gulp watch",
-        "publish": "np"
+        "release": "np"
     },
     "devDependencies": {
         "gulp": "^4.0.2",
