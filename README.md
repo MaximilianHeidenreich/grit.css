@@ -90,9 +90,9 @@
     - [.content-x](#content-x)
     - [.md-content-x](#md-content-x)
   - [Overlay content](#overlay-content)
-    - [.overlay](#overlay)
-    - [.sm-overlay](#sm-overlay)
-    - [.md-overlay](#md-overlay)
+    - [.overlay-x](#overlay-x)
+    - [.sm-overlay-(2,3)](#sm-overlay-23)
+    - [.md-overlay-(2,3)](#md-overlay-23)
   - [Grit content position](#grit-content-position)
     - [.grt-center](#grt-center)
     - [.md-grt-center](#md-grt-center)
@@ -280,9 +280,9 @@ Same functionality as <code>.content-x</code>
 
 ### Overlay content
 
-#### .overlay
+#### .overlay-x
 
-TOOD: -1,2,3 suffix
+TODO: Fix docs
 
 > ! The <code>.overlay</code> class will be applied at any viewport width. Use ...-sm or ...-md to only overlay inside a specific viewport width !
 
@@ -295,13 +295,13 @@ be displayed stacked.
 -> Visit the <a href="/">Docs</a> to learn how to use
 the <code>.overlay</code> class.
 
-#### .sm-overlay
+#### .sm-overlay-(2,3)
 
 > ! Only applies to viewports <=> tablet breakpoint !
 
 Same functionality as <code>.content-x</code>
 
-#### .md-overlay
+#### .md-overlay-(2,3)
 
 > ! Only applies to viewports >= tablet breakpoint !
 
