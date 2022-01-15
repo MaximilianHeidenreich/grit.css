@@ -159,7 +159,7 @@
   grid-column: 1 / span var(--grt-cols);
   -webkit-box-align: start;
           align-items: start;
-  -grt-cols: inherit;
+  --grt-cols: inherit;
   --grt-padd-cols-l: inherit;
   --grt-padd-cols-r: inherit;
   grid-column: 1 / calc(var(--grt-cols) + 1);
