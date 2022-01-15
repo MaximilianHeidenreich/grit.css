@@ -91,8 +91,8 @@
     - [.md-content-x](#md-content-x)
   - [Overlay content](#overlay-content)
     - [.overlay](#overlay)
-    - [.overlay-sm](#overlay-sm)
-    - [.overlay-md](#overlay-md)
+    - [.sm-overlay](#sm-overlay)
+    - [.md-overlay](#md-overlay)
   - [Grit content position](#grit-content-position)
     - [.grt-center](#grt-center)
     - [.md-grt-center](#md-grt-center)
@@ -282,6 +282,8 @@ Same functionality as <code>.content-x</code>
 
 #### .overlay
 
+TOOD: -1,2,3 suffix
+
 > ! The <code>.overlay</code> class will be applied at any viewport width. Use ...-sm or ...-md to only overlay inside a specific viewport width !
 
 Sets the <code>grid-row</code> property to 1.
@@ -293,13 +295,13 @@ be displayed stacked.
 -> Visit the <a href="/">Docs</a> to learn how to use
 the <code>.overlay</code> class.
 
-#### .overlay-sm
+#### .sm-overlay
 
 > ! Only applies to viewports <=> tablet breakpoint !
 
 Same functionality as <code>.content-x</code>
 
-#### .overlay-md
+#### .md-overlay
 
 > ! Only applies to viewports >= tablet breakpoint !
 

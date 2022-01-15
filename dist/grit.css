@@ -2350,6 +2350,14 @@
 .subgrit .overlay {
   grid-row: 1;
 }
+.grit .overlay-2,
+.subgrit .overlay-2 {
+  grid-row: 2;
+}
+.grit .overlay-3,
+.subgrit .overlay-3 {
+  grid-row: 3;
+}
 /* Opinionated content wrapper with default "padding" columns right & left */
 .grit .content,
 .subgrit .content {
@@ -4059,9 +4067,17 @@
   .only-tablet {
     display: none;
   }
-  .grit .overlay-sm,
-  .subgrit .overlay-sm {
+  .grit .sm-overlay,
+  .subgrit .sm-overlay {
     grid-row: 1;
+  }
+  .grit .sm-overlay-2,
+  .subgrit .sm-overlay-2 {
+    grid-row: 2;
+  }
+  .grit .sm-overlay-3,
+  .subgrit .sm-overlay-3 {
+    grid-row: 3;
   }
 }
 @media (min-width: 768px) {
@@ -4082,9 +4098,17 @@
     --grt-padd-cols-r: inherit;
     grid-column: 1 / calc(var(--grt-cols) + 1);
   }
-  .grit .overlay-md,
-  .subgrit .overlay-md {
+  .grit .md-overlay,
+  .subgrit .md-overlay {
     grid-row: 1;
+  }
+  .grit .md-overlay-2,
+  .subgrit .md-overlay-2 {
+    grid-row: 2;
+  }
+  .grit .md-overlay-3,
+  .subgrit .md-overlay-3 {
+    grid-row: 3;
   }
   /* .grit-x */
   .grit-2 {
