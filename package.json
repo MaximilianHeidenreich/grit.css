@@ -24,7 +24,8 @@
         "check": "npx prettier --check ./src",
         "format": "npx prettier --write ./src",
         "build": "npm run format && npx gulp build",
-        "watch": "npm run format && npx gulp watch"
+        "watch": "npm run format && npx gulp watch",
+        "publish": "np"
     },
     "devDependencies": {
         "gulp": "^4.0.2",
